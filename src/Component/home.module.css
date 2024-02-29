@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbar{
+    height: 70px;
+    width: 100%;
+    border-bottom: 2px solid white;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#navbar>a{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+#navbar>a:hover{
+    color:green;
+}
+
+
+#cblock{
+    height: 250px;
+    width: 300px;
+    border: 2px solid yellow ;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    border-radius: 20px;
+    background-color: yellow;
+    box-shadow: 20px 20px 20px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cblock>nav{
+height: 90%;
+width: 85%;
+border: 0px solid red;
+text-align: center;
+}
+#cblock>nav>form>label{
+
+    font-weight: lighter;
+    font-size: 15px;
+}
+input{
+    padding-top: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: yellow;
+}
+input:focus{
+    outline: none;
+
+}
+#cblock>nav>form>button{
+    height: 30px;
+    width: 110px;
+    background-color: transparent;
+    font-weight: lighter;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+
+#ublock{
+    height: 300vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+}
+#ublock>article{
+    height: 300px;
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px white;
+    text-align: center;
+}
+#ublock>article>h1{
+    padding-top: 20px;
+color: white;
+font-weight: lighter;
+font-size: 20px;
+}
+#ublock>article>nav{
+    height: 40px;
+    width: 100%;
+    border: 0px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+#ublock>article>nav>a>button{
+    height: 30px;
+    width: 100px;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    border-radius: 20px;
+}
+#ublock>article>nav>button{
+    height: 30px;
+    width: 100px;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    border-radius: 20px;
+}
+#ublock>article>nav>a>button:hover{
+cursor:pointer;
+box-shadow: 0px 0px 10px white;
+}
